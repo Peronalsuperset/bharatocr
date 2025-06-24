@@ -1,0 +1,28 @@
+# Phase 1 Dependencies
+
+# PDF and Image processing
+PyMuPDF==1.24.1
+opencv-python==4.9.0.80
+Pillow==10.3.0
+
+# OCR
+# Note: paddleocr might have specific paddlepaddle version requirements.
+# Please check their documentation for GPU support.
+paddleocr==2.7.3
+paddlepaddle==2.6.1
+
+# Data Handling
+pandas==2.2.2
+numpy==1.26.4
+
+# Configuration
+PyYAML==6.0.1
+
+# Language Detection
+langdetect==1.0.9
+
+# Table Extraction
+pdfplumber==0.10.3
+
+# Web UI
+streamlit==1.35.0 
